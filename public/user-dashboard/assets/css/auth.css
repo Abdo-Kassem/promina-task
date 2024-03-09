@@ -1,0 +1,18 @@
+.form-register {
+    border: 2px solid #ddd;
+    box-shadow: 0 0 5px 4px #eee;
+    padding: 32px;
+    margin: 70px auto;
+    border-radius: 20px 
+}
+
+.form-register .header {
+    text-align: center;
+    color: #666;
+    font-weight: 700;
+    margin-bottom: 26px
+}
+
+.form-action .login {
+    margin-top: 15px;
+}
