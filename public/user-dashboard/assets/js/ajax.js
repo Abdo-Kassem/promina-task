@@ -23,30 +23,4 @@ $(document).ready(function() {
 
     })
 
-
-    $('.delete-album-submit').on('click', function(event) {
-
-        event.preventDefault();
-
-        var triggerElement = $(this);
-
-        $('#delete-album-modal').attr('form', triggerElement.closest('form').attr('id'));
-
-    })
-
-    $('#choose-another-album-modal').on('click', function(event) {
-
-        if($('#albums-select').css('display') == 'none') {
-
-            event.preventDefault();
-            $('#albums-select').removeClass('d-none');
-
-            $('#delete-album-modal').css('display', 'none')
-
-            $('.modal-dialog #message').text('Will Move Pictures To Another Album And Delete It')
-
-        }
-
-    })
-
 });
